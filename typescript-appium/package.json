@@ -1,0 +1,22 @@
+{
+  "name": "calculator-appium-poc",
+  "version": "1.0.0",
+  "description": "PoC: Windows-kalkulatoren testet med Playwright Test + WebdriverIO + Appium NovaWindows",
+  "scripts": {
+    "postinstall": "node scripts/install-driver.mjs",
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "appium": "^3.9.1",
+    "typescript": "^7.0.2",
+    "webdriverio": "^10.1.0"
+  },
+  "private": true
+}

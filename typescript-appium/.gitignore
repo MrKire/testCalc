@@ -1,0 +1,4 @@
+node_modules/
+.appium/
+test-results/
+playwright-report/

@@ -3,6 +3,8 @@
 Tre prosjekter tester **Windows-kalkulatoren** med de samme 8 testene, hver med sin teknologi.
 Formålet er å sammenligne verktøyene for testing av native Windows-applikasjoner.
 
+📊 **Presentasjon for teamet:** [PDF](docs/testing-av-native-windows-apper.pdf) · [PowerPoint](docs/testing-av-native-windows-apper.pptx)
+
 > **Hvorfor ikke bare Playwright?** Playwright styrer kun nettlesere (og Electron) via nettleserprotokoller.
 > Native Windows-apper (Win32, WPF, WinForms, UWP/WinUI) må styres via **UI Automation (UIA)**, Windows sitt
 > tilgjengelighets-API. Alle tre prosjektene under bygger på UIA.
